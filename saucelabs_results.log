@@ -1,0 +1,774 @@
+✓ firefox 28.0 on WINDOWS - test doubleclick functionality - test singleclick (after doubleclick test)
+✓ safari 7.0.6 on MAC - test doubleclick functionality - test singleclick (after doubleclick test)
+✓ chrome 34.0.1847.116 on Linux - test doubleclick functionality - test singleclick (after doubleclick test)
+✓ internet explorer 10 on WINDOWS - test doubleclick functionality - test singleclick (after doubleclick test)
+✓ safari 6.0.5 on MAC - test doubleclick functionality - test singleclick (after doubleclick test)
+✓ chrome 34.0.1847.116 on Windows NT - test doubleclick functionality - test singleclick (after doubleclick test)
+✓ firefox 28.0 on MAC - test doubleclick functionality - test singleclick (after doubleclick test)
+✓ internet explorer 11 on WINDOWS - test doubleclick functionality - test singleclick (after doubleclick test)
+✓ chrome 34.0.1847.116 on Mac OS X - test doubleclick functionality - test singleclick (after doubleclick test)
+✓ firefox 28.0 on LINUX - test doubleclick functionality - test singleclick (after doubleclick test)
+× safari 6.0.5 on MAC - test doubleclick functionality - test doubleclick
+NoSuchElement: [POST http://(redacted)@localhost:4444/wd/hub/session/a3ca3fb4d29942979baf09aab4a8143c/element / {"using":"id","value":"double-click-fired"}] Could not find element: {"using":"id","value":"double-click-fired"} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'itako46057.prod.miso', ip: '172.20.46.57', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.8.4', java.version: '1.6.0_65'
+Session ID: null
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{platform=MAC, cssSelectorsEnabled=true, javascriptEnabled=true, secureSsl=true, browserName=safari, takesScreenshot=true, version=6.0.5}]
+  at Server._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Server.js:68:9>
+  at ProxiedSession._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:57:30>
+  at ProxiedSession.Session.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:1053:15>
+  at CompatCommand.<anonymous>  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:41:36>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:235:37>
+  at runCallbacks  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:11:18>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:188:17>
+  at Object.run [as _onImmediate]  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:131:29>
+  at processImmediate [as _immediateCallback]  <timers.js:345:15>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:22:10>
+  at <CompatCommand.prototype.(anonymous function) [as findById] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/lib/strategies.js:24:16)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:30:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at <CompatCommand.target.(anonymous function) [as getVisibleText] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:656:11)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:31:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.then  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:525:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:32:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+× firefox 28.0 on WINDOWS - test doubleclick functionality - test doubleclick
+UnknownError: [POST http://(redacted)@localhost:4444/wd/hub/session/e39c9363b5e047bf90029c603e4a0a49/doubleclick] '[JavaScript Error: "can't access dead object" {file: "file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous3881475383873456492webdriver-profile/extensions/fxdriver@googlecode.com/components/synthetic-mouse.js" line: 7462}]' when calling method: [wdIMouse::doubleClick]
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'WIN-R1JBAO1CNPS', ip: '172.20.34.129', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_60'
+Driver info: driver.version: unknown
+  at Server._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Server.js:68:9>
+  at ProxiedSession._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:57:30>
+  at ProxiedSession.Session.doubleClick  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:1365:15>
+  at CompatCommand.<anonymous>  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:617:19>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:235:37>
+  at runCallbacks  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:11:18>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:188:17>
+  at Object.run [as _onImmediate]  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:131:29>
+  at processImmediate [as _immediateCallback]  <timers.js:345:15>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at <CompatCommand.target.(anonymous function) [as doubleClick] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:592:11)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:27:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.end  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:475:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:28:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.sleep  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:449:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:29:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:22:10>
+  at <CompatCommand.prototype.(anonymous function) [as findById] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/lib/strategies.js:24:16)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:30:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at <CompatCommand.target.(anonymous function) [as getVisibleText] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:656:11)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:31:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.then  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:525:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:32:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+× chrome 34.0.1847.116 on Mac OS X - test doubleclick functionality - test doubleclick
+NoSuchElement: [POST http://(redacted)@localhost:4444/wd/hub/session/78300d6fdeef476fbd430945dd674549/element / {"using":"id","value":"double-click-fired"}] no such element
+  (Session info: chrome=34.0.1847.116)
+  (Driver info: chromedriver=2.10.267517,platform=Mac OS X 10.9.5 x86_64)
+  at Server._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Server.js:68:9>
+  at ProxiedSession._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:57:30>
+  at ProxiedSession.Session.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:1053:15>
+  at CompatCommand.<anonymous>  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:41:36>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:235:37>
+  at runCallbacks  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:11:18>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:188:17>
+  at Object.run [as _onImmediate]  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:131:29>
+  at processImmediate [as _immediateCallback]  <timers.js:345:15>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:22:10>
+  at <CompatCommand.prototype.(anonymous function) [as findById] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/lib/strategies.js:24:16)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:30:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at <CompatCommand.target.(anonymous function) [as getVisibleText] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:656:11)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:31:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.then  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:525:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:32:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+× chrome 34.0.1847.116 on Windows NT - test doubleclick functionality - test doubleclick
+NoSuchElement: [POST http://(redacted)@localhost:4444/wd/hub/session/cc78564b479b4e5fa27808656d3aeaaa/element / {"using":"id","value":"double-click-fired"}] no such element
+  (Session info: chrome=34.0.1847.116)
+  (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.1 SP1 x86_64)
+  at Server._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Server.js:68:9>
+  at ProxiedSession._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:57:30>
+  at ProxiedSession.Session.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:1053:15>
+  at CompatCommand.<anonymous>  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:41:36>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:235:37>
+  at runCallbacks  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:11:18>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:188:17>
+  at Object.run [as _onImmediate]  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:131:29>
+  at processImmediate [as _immediateCallback]  <timers.js:345:15>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:22:10>
+  at <CompatCommand.prototype.(anonymous function) [as findById] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/lib/strategies.js:24:16)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:30:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at <CompatCommand.target.(anonymous function) [as getVisibleText] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:656:11)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:31:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.then  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:525:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:32:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+× firefox 28.0 on LINUX - test doubleclick functionality - test doubleclick
+UnknownError: [POST http://(redacted)@localhost:4444/wd/hub/session/0153e86b3e944b4887189da688ed7f5b/doubleclick] '[JavaScript Error: "can't access dead object" {file: "file:///tmp/anonymous7244454894446178237webdriver-profile/extensions/fxdriver@googlecode.com/components/synthetic-mouse.js" line: 7462}]' when calling method: [wdIMouse::doubleClick]
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'chef', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-32-generic', java.version: '1.6.0_45'
+Driver info: driver.version: unknown
+  at Server._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Server.js:68:9>
+  at ProxiedSession._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:57:30>
+  at ProxiedSession.Session.doubleClick  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:1365:15>
+  at CompatCommand.<anonymous>  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:617:19>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:235:37>
+  at runCallbacks  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:11:18>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:188:17>
+  at Object.run [as _onImmediate]  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:131:29>
+  at processImmediate [as _immediateCallback]  <timers.js:345:15>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at <CompatCommand.target.(anonymous function) [as doubleClick] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:592:11)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:27:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.end  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:475:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:28:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.sleep  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:449:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:29:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:22:10>
+  at <CompatCommand.prototype.(anonymous function) [as findById] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/lib/strategies.js:24:16)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:30:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at <CompatCommand.target.(anonymous function) [as getVisibleText] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:656:11)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:31:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.then  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:525:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:32:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+× firefox 28.0 on MAC - test doubleclick functionality - test doubleclick
+UnknownError: [POST http://(redacted)@localhost:4444/wd/hub/session/e922c5afbcd34fd99c305abae03263c8/doubleclick] '[JavaScript Error: "can't access dead object" {file: "file:///var/folders/bl/1800rz_j7blcqx8pthyrq59h0000gn/T/anonymous7327876018682070485webdriver-profile/extensions/fxdriver@googlecode.com/components/synthetic-mouse.js" line: 7462}]' when calling method: [wdIMouse::doubleClick]
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'itako36180.prod.miso', ip: '172.20.36.180', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_45'
+Driver info: driver.version: unknown
+  at Server._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Server.js:68:9>
+  at ProxiedSession._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:57:30>
+  at ProxiedSession.Session.doubleClick  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:1365:15>
+  at CompatCommand.<anonymous>  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:617:19>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:235:37>
+  at runCallbacks  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:11:18>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:188:17>
+  at Object.run [as _onImmediate]  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:131:29>
+  at processImmediate [as _immediateCallback]  <timers.js:345:15>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at <CompatCommand.target.(anonymous function) [as doubleClick] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:592:11)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:27:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.end  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:475:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:28:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.sleep  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:449:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:29:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:22:10>
+  at <CompatCommand.prototype.(anonymous function) [as findById] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/lib/strategies.js:24:16)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:30:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at <CompatCommand.target.(anonymous function) [as getVisibleText] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:656:11)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:31:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.then  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:525:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:32:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+× internet explorer 9 on WINDOWS - test doubleclick functionality - test singleclick (after doubleclick test)
+NoSuchElement: [POST http://(redacted)@localhost:4444/wd/hub/session/8131d5625769440889d51e28aec0bf47/element / {"using":"id","value":"bar"}] Unable to find element with id == bar (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 284 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'Sauce-Win7', ip: '172.20.42.59', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_65'
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX0977ec68
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, ignoreProtectedModeSettings=false, cssSelectorsEnabled=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:15632/, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/proxy.pac, proxyType=pac}, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+  at Server._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Server.js:68:9>
+  at ProxiedSession._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:57:30>
+  at ProxiedSession.Session.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:1053:15>
+  at CompatCommand.<anonymous>  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:41:36>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:235:37>
+  at runCallbacks  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:11:18>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:188:17>
+  at Object.run [as _onImmediate]  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:131:29>
+  at processImmediate [as _immediateCallback]  <timers.js:345:15>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:22:10>
+  at <CompatCommand.prototype.(anonymous function) [as findById] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/lib/strategies.js:24:16)>
+  at Test.registerSuite.test singleclick  <after doubleclick test>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.sleep  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:449:10>
+  at Test.registerSuite.test singleclick  <after doubleclick test>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at <CompatCommand.target.(anonymous function) (/usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:656:11)>
+  at CompatCommand.methods.click  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/compat.js:345:34>
+  at Test.registerSuite.test singleclick  <after doubleclick test>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.end  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:475:10>
+  at Test.registerSuite.test singleclick  <after doubleclick test>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.sleep  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:449:10>
+  at Test.registerSuite.test singleclick  <after doubleclick test>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:22:10>
+  at <CompatCommand.prototype.(anonymous function) [as findById] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/lib/strategies.js:24:16)>
+  at Test.registerSuite.test singleclick  <after doubleclick test>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at <CompatCommand.target.(anonymous function) [as getVisibleText] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:656:11)>
+  at Test.registerSuite.test singleclick  <after doubleclick test>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.then  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:525:10>
+  at Test.registerSuite.test singleclick  <after doubleclick test>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+× chrome 34.0.1847.116 on Linux - test doubleclick functionality - test doubleclick
+NoSuchElement: [POST http://(redacted)@localhost:4444/wd/hub/session/6bedfd84619b40bbba295b302159f5a7/element / {"using":"id","value":"double-click-fired"}] no such element
+  (Session info: chrome=34.0.1847.116)
+  (Driver info: chromedriver=2.10.267517,platform=Linux 3.13.0-32-generic x86)
+  at Server._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Server.js:68:9>
+  at ProxiedSession._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:57:30>
+  at ProxiedSession.Session.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:1053:15>
+  at CompatCommand.<anonymous>  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:41:36>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:235:37>
+  at runCallbacks  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:11:18>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:188:17>
+  at Object.run [as _onImmediate]  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:131:29>
+  at processImmediate [as _immediateCallback]  <timers.js:345:15>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:22:10>
+  at <CompatCommand.prototype.(anonymous function) [as findById] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/lib/strategies.js:24:16)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:30:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at <CompatCommand.target.(anonymous function) [as getVisibleText] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:656:11)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:31:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.then  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:525:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:32:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+× internet explorer 11 on WINDOWS - test doubleclick functionality - test doubleclick
+NoSuchElement: [POST http://(redacted)@localhost:4444/wd/hub/session/6238439e66834e28934f4c6fb1682bdc/element / {"using":"id","value":"double-click-fired"}] Unable to find element with id == double-click-fired (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 318 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'WIN-HLEK05V71GA', ip: '172.20.32.54', os.name: 'Windows Server 2012 R2', os.arch: 'x86', os.version: '6.3', java.version: '1.7.0_67'
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXcb1d24f6
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, ie.usePerProcessProxy=false, ignoreProtectedModeSettings=false, cssSelectorsEnabled=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:26360/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+  at Server._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Server.js:68:9>
+  at ProxiedSession._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:57:30>
+  at ProxiedSession.Session.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:1053:15>
+  at CompatCommand.<anonymous>  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:41:36>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:235:37>
+  at runCallbacks  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:11:18>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:188:17>
+  at Object.run [as _onImmediate]  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:131:29>
+  at processImmediate [as _immediateCallback]  <timers.js:345:15>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:22:10>
+  at <CompatCommand.prototype.(anonymous function) [as findById] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/lib/strategies.js:24:16)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:30:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at <CompatCommand.target.(anonymous function) [as getVisibleText] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:656:11)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:31:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.then  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:525:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:32:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+× internet explorer 10 on WINDOWS - test doubleclick functionality - test doubleclick
+NoSuchElement: [POST http://(redacted)@localhost:4444/wd/hub/session/eacbd99075d346cfa26e4f2bb938c71c/element / {"using":"id","value":"double-click-fired"}] Unable to find element with id == double-click-fired (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 310 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'WIN-HLEK05V71GA', ip: '172.20.34.129', os.name: 'Windows Server 2012', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_60'
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX7a8c5a56
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=10, ie.usePerProcessProxy=false, ignoreProtectedModeSettings=false, cssSelectorsEnabled=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:22779/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+  at Server._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Server.js:68:9>
+  at ProxiedSession._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:57:30>
+  at ProxiedSession.Session.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:1053:15>
+  at CompatCommand.<anonymous>  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:41:36>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:235:37>
+  at runCallbacks  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:11:18>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:188:17>
+  at Object.run [as _onImmediate]  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:131:29>
+  at processImmediate [as _immediateCallback]  <timers.js:345:15>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:22:10>
+  at <CompatCommand.prototype.(anonymous function) [as findById] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/lib/strategies.js:24:16)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:30:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at <CompatCommand.target.(anonymous function) [as getVisibleText] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:656:11)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:31:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.then  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:525:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:32:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+× safari 7.0.6 on MAC - test doubleclick functionality - test doubleclick
+NoSuchElement: [POST http://(redacted)@localhost:4444/wd/hub/session/1e7d3eec3fad48b1bf43ec4cb41f6728/element / {"using":"id","value":"double-click-fired"}] Could not find element: {"using":"id","value":"double-click-fired"} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'itako36167.prod.miso', ip: '172.20.36.167', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_45'
+Session ID: null
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{platform=MAC, cssSelectorsEnabled=true, javascriptEnabled=true, secureSsl=true, browserName=safari, takesScreenshot=true, version=7.0.6}]
+  at Server._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Server.js:68:9>
+  at ProxiedSession._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:57:30>
+  at ProxiedSession.Session.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:1053:15>
+  at CompatCommand.<anonymous>  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:41:36>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:235:37>
+  at runCallbacks  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:11:18>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:188:17>
+  at Object.run [as _onImmediate]  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:131:29>
+  at processImmediate [as _immediateCallback]  <timers.js:345:15>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:22:10>
+  at <CompatCommand.prototype.(anonymous function) [as findById] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/lib/strategies.js:24:16)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:30:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at <CompatCommand.target.(anonymous function) [as getVisibleText] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:656:11)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:31:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.then  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:525:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:32:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+× internet explorer 9 on WINDOWS - test doubleclick functionality - test doubleclick
+NoSuchElement: [POST http://(redacted)@localhost:4444/wd/hub/session/8131d5625769440889d51e28aec0bf47/element / {"using":"id","value":"foo"}] Unable to find element with id == foo (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 279 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'Sauce-Win7', ip: '172.20.42.59', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_65'
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX0977ec68
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, ignoreProtectedModeSettings=false, cssSelectorsEnabled=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:15632/, handlesAlerts=true, ie.forceCreateProcessApi=false, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/proxy.pac, proxyType=pac}, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+  at Server._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Server.js:68:9>
+  at ProxiedSession._post  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:57:30>
+  at ProxiedSession.Session.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Session.js:1053:15>
+  at CompatCommand.<anonymous>  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:41:36>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:235:37>
+  at runCallbacks  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:11:18>
+  at <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:188:17>
+  at Object.run [as _onImmediate]  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/node_modules/dojo/Promise.js:131:29>
+  at processImmediate [as _immediateCallback]  <timers.js:345:15>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:22:10>
+  at <CompatCommand.prototype.(anonymous function) [as findById] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/lib/strategies.js:24:16)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:25:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.sleep  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:449:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:26:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at <CompatCommand.target.(anonymous function) [as doubleClick] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:592:11)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:27:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.end  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:475:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:28:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.sleep  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:449:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:29:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.find  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:22:10>
+  at <CompatCommand.prototype.(anonymous function) [as findById] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/lib/strategies.js:24:16)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:30:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at <CompatCommand.target.(anonymous function) [as getVisibleText] (/usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:656:11)>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:31:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+  at new CompatCommand  <../../../../usr/local/lib/node_modules/intern/runner.js:213:14>
+  at CompatCommand.Command.then  <../../../../usr/local/lib/node_modules/intern/node_modules/leadfoot/Command.js:525:10>
+  at Test.registerSuite.test doubleclick [as test]  <tests/functional/index.js:32:18>
+  at Test.run  <../../../../usr/local/lib/node_modules/intern/lib/Test.js:169:19>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:237:13>
+  at signalListener  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:37:21>
+  at Promise.then.promise.then  <../../../../usr/local/lib/node_modules/intern/node_modules/dojo/Deferred.js:258:5>
+  at runTest  <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:236:46>
+  at <../../../../usr/local/lib/node_modules/intern/lib/Suite.js:249:7>
+  at process._tickCallback  <node.js:419:13>
+
+tests/intern
+Tunnel: Ready
+
+Total: [×××✓××✓✓××✓✓××✓××✓✓×✓] 22/22
+Passed: 10  Failed: 12  Skipped: 0
+
+IE 9 WIN:   [××] 2/2, 2 fail
+IE 10 WIN:  [×✓] 2/2, 1 fail
+IE 11 WIN:  [×✓] 2/2, 1 fail
+Fx 28 MAC:  [×✓] 2/2, 1 fail
+Fx 28 LIN:  [×✓] 2/2, 1 fail
+Fx 28 WIN:  [×✓] 2/2, 1 fail
+Chr 34 Mac: [×✓] 2/2, 1 fail
+Chr 34 Win: [×✓] 2/2, 1 fail
+Saf 6 MAC:  [×✓] 2/2, 1 fail
+Chr 34 Lin: [×✓] 2/2, 1 fail
+Saf 7 MAC:  [×✓] 2/2, 1 fail
+
+----------|-----------|-----------|-----------|-----------|
+File      |   % Stmts |% Branches |   % Funcs |   % Lines |
+----------|-----------|-----------|-----------|-----------|
+----------|-----------|-----------|-----------|-----------|
+All files |       100 |       100 |       100 |       100 |
+----------|-----------|-----------|-----------|-----------|

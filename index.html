@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Test Doubleclick</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react.js"></script>
+<script>
+    var HelloWorld = React.createClass({
+        render : function() {
+            return React.DOM.div({},[
+                React.DOM.button({'id': 'foo', 'onDoubleClick': function() {
+                    React.renderComponent(React.DOM.p({'id': 'double-click-fired'},['Double Click Fired']), document.body);
+                }}, ['Double Click Me']),
+                React.DOM.button({'id': 'bar', 'onClick': function() {
+                    React.renderComponent(React.DOM.p({'id': 'click-fired'},['Click Fired']), document.body);
+                }}, ['Click Me'])
+            ]);
+        }
+    });
+
+    React.renderComponent(
+            HelloWorld({}),
+            document.body
+    );
+</script>
+</html>

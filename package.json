@@ -1,0 +1,12 @@
+{
+  "name": "test_doubleclick",
+  "version": "1.0.0",
+  "description": "A simple React page with double click functionality and its Intern tests",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielbank/testDoubleClick.git"
+  },
+  "devDependencies": {
+    "intern": "^2.2.2"
+  }
+}
